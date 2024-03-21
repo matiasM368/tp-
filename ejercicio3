@@ -1,0 +1,22 @@
+package ejercicio;
+
+import java.util.Scanner;
+
+public class ejercicio3 {
+	public static void main (String [] args) {
+		// EJERCICIO 3 : Dado un número mostrar el número, la cantidad de dígitos y los dígitos por separado. Por ejemplo: 265 – 3 – 2 6 5
+		int numero1;
+		Scanner numero = new Scanner(System.in);
+		System.out.println("Ingrese un numero:");
+		numero1 = numero.nextInt();
+		while (numero1>0) {
+			numero1
+			
+			
+			
+		}
+		
+		
+	}
+
+}
