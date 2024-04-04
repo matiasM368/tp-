@@ -1,0 +1,10 @@
+package ejercicio;
+
+public class funciones {
+	public static void main (String [] args) {
+		Cdmartillo  obj_martillo = new Cdmartillo();
+		
+		System.out.println("el color del martilo;"+obj_martillo.getColor());
+		System.out.println("el tamaño del color del martillo"+obj_martillo.getTamaño());
+		System.out.println("la presion del martillo es"+obj_martillo.Martillar(300));
+		
