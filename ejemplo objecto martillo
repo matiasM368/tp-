@@ -1,0 +1,35 @@
+package ejercicio;
+
+public class Cdmartillo {
+	private  String color;
+	private  int tamaño;
+	// metodos para martillar
+	
+	public int  Martillar(int presion) {
+		return presion+2;
+	}
+	
+	public boolean QuitarClavo(String Nombre_Del_Clavo) {
+		Nombre_Del_Clavo = "";
+		return true;
+		
+		
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public int getTamaño() {
+		return tamaño;
+	}
+
+	public void setTamaño(int tamaño) {
+		this.tamaño = tamaño;
+	}
+
+}
